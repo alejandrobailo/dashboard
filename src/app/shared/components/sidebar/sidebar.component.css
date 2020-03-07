@@ -1,0 +1,19 @@
+:host .mat-icon{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 0 20px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}

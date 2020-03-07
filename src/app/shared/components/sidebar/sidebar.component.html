@@ -1,1 +1,31 @@
-<p>sidebar works!</p>
+<mat-nav-list>
+    <div profile="profile-card">
+        <div class="header">
+            <h2>User 1</h2>
+            <img src="https://image.flaticon.com/icons/svg/206/206876.svg" alt="user img">
+        </div>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLink="/" routerLinkActive="list-item-active">Dashboard</a>
+    <a mat-list-item routerLink="/posts" routerLinkActive="list-item-active">Post</a>
+    <a mat-list-item routerLink="/articles" routerLinkActive="list-item-active">Articles</a>
+
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Tools</h2>
+
+    <a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a>
+    <a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active">
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+
+</mat-nav-list>
