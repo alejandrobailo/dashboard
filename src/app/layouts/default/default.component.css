@@ -5,7 +5,9 @@
 }
 
 mat-drawer{
-    width: 350px;
+    width: 200px;
+    background-color: #303030 ;
+    color: white;
 }
 
 mat-drawer-container{
@@ -14,4 +16,6 @@ mat-drawer-container{
 
 mat-drawer-content{
     padding: 20px;
+    background-color: #303030 ;
+    color: white;
 }
