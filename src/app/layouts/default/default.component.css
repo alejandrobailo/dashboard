@@ -1,7 +1,6 @@
 :host{
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 mat-drawer{
@@ -18,4 +17,5 @@ mat-drawer-content{
     padding: 20px;
     background-color: #303030 ;
     color: white;
+    margin-bottom: 60px;
 }
